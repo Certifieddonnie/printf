@@ -1,1 +1,4 @@
-This is the readme file for 0x11. C - printf
+<<<<<<< HEAD
+OUR OWN PRINTF PROGRAM DESIGNED BY;
+AMURE MCDONALD & OJEDIRAN TITUS.
+>>>>>>> refs/remotes/origin/master
