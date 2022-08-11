@@ -13,6 +13,14 @@ int _printf(const char *format, ...)
 		{"%", print_percent},
 		{"d", print_number},
 		{"i", print_number},
+		{"u", unsigned_integer},
+		{"o", print_octal},
+		{"x", print_hex},
+		{"X", print_Hex},
+		{"r", print_reversed},
+		{"R", rot13},
+		{"b", print_binary},
+		{"p", print_address},
 		{NULL, NULL}
 	};
 	va_list str;

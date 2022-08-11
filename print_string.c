@@ -13,9 +13,11 @@ int print_string(va_list str)
 	int len;
 
 	c = va_arg(str, char *);
+	if (c == NULL)
+		c = "(null)";
 	len = _strlen(c);
 
-	if (len != 0)
+	if (len)
 		return (write(1, c, len));
 
 	return (-1);
